@@ -48,6 +48,6 @@ def set_url5(message):
 def set_url6(message):
     bot.reply_to(message, 'Торговая биржа на которой дают 200$ прибыль при торговле потом можно вывести \n\n  https://billium.com/?ref=41581')
 
-
-bot.polling()
+if __name__ == "__main__":
+    bot.polling()
 
