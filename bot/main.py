@@ -44,9 +44,9 @@ def set_url4(message):
 def set_url5(message):
     bot.reply_to(message, 'Самая быстрорастущая биржа \n\n Я торгую криптовалютой на Phemex.Присоединяйтесь ко мне и получите эксклюзивный бонус в BTC \n https://phemex.com/register?platform=app&referralCode=G242X4')
 
-@bot.message_handler(func=lambda x: x.text == 'BILLIUM')
+@bot.message_handler(func=lambda x: x.text == 'BINANCE')
 def set_url6(message):
-    bot.reply_to(message, 'Торговая биржа на которой дают 200$ прибыль при торговле потом можно вывести \n\n  https://billium.com/?ref=41581')
+    bot.reply_to(message, 'Самая известная и щедрая биржа на бонусы \n\n  https://www.binance.com/ru/activity/referral-entry/CPA?fromActivityPage=true&ref=CPA_00OU20Q5SB')
 
 if __name__ == "__main__":
     bot.polling()
