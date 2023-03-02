@@ -16,7 +16,7 @@ def start(message):
     button3 = types.KeyboardButton(text='HUOBI')
     button4 = types.KeyboardButton(text='BITGET')
     button5 = types.KeyboardButton(text='PHEMEX')
-    button6 = types.KeyboardButton(text='BILLIUM')
+    button6 = types.KeyboardButton(text='BINANCE')
 
     kb.add(button1, button2)
     kb.add(button3, button4)
