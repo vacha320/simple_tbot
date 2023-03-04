@@ -8,7 +8,7 @@ bot = telebot.TeleBot(TOKEN)
 @bot.message_handler(commands=['start'])
 def start(message):
     file = open('199032326.jpg', 'rb')
-    bot.send_photo(message.chat.id, file,)
+    bot.send_photo(message.chat.id, file)
 
     kb = types.ReplyKeyboardMarkup(resize_keyboard=True, row_width=2)
     button1 = types.KeyboardButton(text='BYBIT')
